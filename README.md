@@ -1,16 +1,18 @@
 # mis_bengkel
 
-A new Flutter project.
+An application that is useful to assist users in maintaining their vehicle spare parts and booking for making an appointment to service their vehicle. This app also has admin feature so that repair shop can handle order and increase customer engagement with promos.
 
-## Getting Started
+## Customer Features
 
-This project is a starting point for a Flutter application.
+- Booking, making appointment schedule
+- Customer Reminder Notification, for reminding whether its time to change spare part
+- History Service
+- Service Queue
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Admin Features
+- Input Promo Banner
+- Adding Service Data, for update service data
+- Change Service Customer Status
+- Update Spare Part Service Customer, whether there's changes on spare part that had to be changed
