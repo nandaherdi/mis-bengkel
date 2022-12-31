@@ -20,12 +20,9 @@ Future<void> main() async {
   );
 
   await Supabase.initialize(
-    //url: 'https://exnvztqcywsdrzcplsyx.supabase.co',
-    url: 'https://zzebrcnxpkypbxcvjvku.supabase.co',
+    url: 'url',
     anonKey:
-        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp6ZWJyY254cGt5cGJ4Y3Zqdmt1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzIzOTQ1NjgsImV4cCI6MTk4Nzk3MDU2OH0.6YXhn_ERJfwtlAKq21P7YQiTwBo0kRo6L31U9p1HwHU',
-    //anonKey:
-    //    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV4bnZ6dHFjeXdzZHJ6Y3Bsc3l4Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY1ODA2NDUyNiwiZXhwIjoxOTczNjQwNTI2fQ.Ct-Fe_5VmqpSE7Zanfkpo9nXn3pnA95rJ1fxva6JWAI',
+        'anonKey',
   );
 
   AwesomeNotifications().initialize(
